@@ -37,7 +37,7 @@ spec:
         - mountPath: "/var/lib/mysql"
           name: db-volume
       volumes:
-      - name: db-volume
+      - name: mysql-pv-claim
         emptyDir: {}
       - name: db-init
         emptyDir: {}
