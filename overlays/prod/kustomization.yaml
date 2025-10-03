@@ -1,0 +1,4 @@
+kind: Kustomatization
+
+bases:
+  - ../../base
